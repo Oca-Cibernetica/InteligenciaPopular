@@ -1,0 +1,10 @@
+# Dependências do projeto
+
+requests
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+jinja2
+awesome-slugify
