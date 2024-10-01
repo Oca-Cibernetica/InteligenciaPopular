@@ -26,7 +26,48 @@ Quer ir mais fundo? Que tal ajudar no desenvolvimento? Se você tem um pouco mai
 
 ## Preparando o ambiente
 
-**TODO**
+Para utilizar a Inteligência Popular, é necessário que você tenha instalado o Python 3 instalado com Pip e VirtualEnv. Você também vai precisar do Git. As instruções abaixo consideram que você está usando Linux, caso você use Windows ou Mac, alguns comandos podem ser ligeiramente diferentes.
+
+Comece baixando o repositório. Você pode fazer isso usando HTTP ou SSH. Pelo terminal, entre na pasta onde deseja instalar o projeto e execute um dos comandos abaixo.
+
+```
+git clone https://github.com/Oca-Cibernetica/InteligenciaPopular.git
+```
+
+Ou
+
+```
+git clone git@github.com:Oca-Cibernetica/InteligenciaPopular.git
+```
+
+Esses comandos criarão a pasta `InteligenciaPopular` na sua pasta de projetos. Em seguida, navegue até a pasta e crie o ambiente virtual.
+
+```
+cd InteligenciaPopular
+python -m venv .venv
+```
+
+Depois de criar o ambiente virtual, você deve ativá-lo. Sempre que você iniciar seu ambiente, deve repetir esse comando:
+
+```
+source ./.venv/bin/activate
+```
+
+Terminando o seu trabalho, você pode desativar o ambiente virtual assim:
+
+```
+./.venv/bin/deactivate
+```
+
+Todos esses comandos devem ser executados na pasta do projeto.
+
+Depois de ativar o ambiente, você precisa instalar as dependências. Como você está em um ambiente virtual, esse processo não vai afetar a instalação do Python no seu ambiente.
+
+```
+pip install -r requirements.txt
+```
+
+
 
 ## Estado atual do desenvolvimento
 
