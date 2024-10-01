@@ -56,7 +56,7 @@ source ./.venv/bin/activate
 Terminando o seu trabalho, você pode desativar o ambiente virtual assim:
 
 ```
-./.venv/bin/deactivate
+deactivate
 ```
 
 Todos esses comandos devem ser executados na pasta do projeto.
@@ -67,7 +67,19 @@ Depois de ativar o ambiente, você precisa instalar as dependências. Como você
 pip install -r requirements.txt
 ```
 
+Também é necessário instalar o projeto usando Pip, de modo que ele possa ser referenciado sempre que o ambiente virtual estiver ativo.
 
+```
+pip install .
+```
+
+Agora, basta iniciar o Jupyter Notebook.
+
+```
+jupyter-notebook
+```
+
+Esse comando deve abrir automaticamente seu navegador padrão na página do Jupyter Notebook, mostrando os arquivos do projeto. Entre na pasta `exemplos` e abra o arquivo `exemplo1_localidades.ipynb` ou qualquer outro arquivo com a extenção `ipynb` para utilizar a biblioteca. Você pode também criar novos arquivos com esta extenção para suas necessidades específicas.
 
 ## Estado atual do desenvolvimento
 
